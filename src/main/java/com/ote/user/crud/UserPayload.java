@@ -7,7 +7,7 @@ import lombok.*;
 import javax.validation.constraints.NotNull;
 import java.util.List;
 
-@Getter
+/*@Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
@@ -23,4 +23,4 @@ public class UserPayload {
 
     @JsonInclude(JsonInclude.Include.NON_EMPTY)
     private List<UserRightPayload> userRights;
-}
+}*/
